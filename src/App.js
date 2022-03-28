@@ -8,7 +8,6 @@ import Login from "./Components/Login";
 import Dashboard from "./Components/Dashboard";
 import PrivateRoute from "./Components/PrivateRoute";
 import PublicRoute from "./Components/PublicRoute";
-import ChangePassword from "./Components/ChangePassword";
 import UserDetails from "./Components/UserDetails";
 
 class App extends React.Component {
@@ -18,7 +17,10 @@ class App extends React.Component {
       <div className="App">
         <Router history={history}>
           <Switch>
-            <PrivateRoute path="/Dashboard/UserDetails" component={UserDetails} />
+            <PrivateRoute
+              path="/Dashboard/UserDetails"
+              component={UserDetails}
+            />
             <PublicRoute
               restricted={true}
               component={Signup}
@@ -26,11 +28,6 @@ class App extends React.Component {
               exact
             />
             <PublicRoute restricted={true} component={Login} path="/" exact />
-            <PrivateRoute
-              component={ChangePassword}
-              path="/Dashboard/ChangePassword"
-              exact
-            />
             <PrivateRoute component={Dashboard} path="/Dashboard" exact />
             <Route render={() => <Redirect to={{ pathname: "/" }} />} />
           </Switch>

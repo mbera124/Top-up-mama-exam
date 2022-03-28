@@ -6,7 +6,6 @@ import { logout } from "../utils";
 import Sidebar from "./Sidebar";
 
 import UserDetails from "./UserDetails";
-import ChangePassword from "./ChangePassword";
 import Timer from "./TokenTimer";
 class Dashboard extends React.Component {
   logout = (e) => {
@@ -25,7 +24,6 @@ class Dashboard extends React.Component {
               <Timer />
               <Switch>
                 <Route path="UserDetails" component={UserDetails} />
-                <Route path="ChangePassword" component={ChangePassword} />
               </Switch>
             </div>
           </div>
