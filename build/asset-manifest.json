@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mbera124/github.ionp/static/css/main.96e9d931.chunk.css",
+    "main.js": "/mbera124/github.ionp/static/js/main.6ac8e895.chunk.js",
+    "main.js.map": "/mbera124/github.ionp/static/js/main.6ac8e895.chunk.js.map",
+    "runtime-main.js": "/mbera124/github.ionp/static/js/runtime-main.ccb6c60f.js",
+    "runtime-main.js.map": "/mbera124/github.ionp/static/js/runtime-main.ccb6c60f.js.map",
+    "static/js/2.50e77805.chunk.js": "/mbera124/github.ionp/static/js/2.50e77805.chunk.js",
+    "static/js/2.50e77805.chunk.js.map": "/mbera124/github.ionp/static/js/2.50e77805.chunk.js.map",
+    "index.html": "/mbera124/github.ionp/index.html",
+    "precache-manifest.d65206de5c6c9592670712663909ef43.js": "/mbera124/github.ionp/precache-manifest.d65206de5c6c9592670712663909ef43.js",
+    "service-worker.js": "/mbera124/github.ionp/service-worker.js",
+    "static/css/main.96e9d931.chunk.css.map": "/mbera124/github.ionp/static/css/main.96e9d931.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccb6c60f.js",
+    "static/js/2.50e77805.chunk.js",
+    "static/css/main.96e9d931.chunk.css",
+    "static/js/main.6ac8e895.chunk.js"
+  ]
+}
